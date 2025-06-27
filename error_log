@@ -1,0 +1,765 @@
+[15-May-2024 04:26:57 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:26:57 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:26:57 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:26:57 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:26:58 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 04:29:18 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:29:18 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:29:18 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:29:18 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:29:18 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 04:32:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:32:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:32:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:32:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:32:44 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 04:37:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:37:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:37:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:37:44 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:37:44 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 04:43:45 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:43:45 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:43:45 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:43:45 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 04:43:45 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 07:29:01 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:29:01 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:29:01 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:29:01 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:29:01 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 07:45:03 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:45:03 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:45:03 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:45:03 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 07:45:03 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 08:49:33 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 08:49:33 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 08:49:33 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 08:49:33 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 08:49:33 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 11:27:21 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 11:27:21 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 11:27:21 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 11:27:21 UTC] PHP Warning:  Array to string conversion in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php on line 110
+[15-May-2024 11:27:21 UTC] PHP Fatal error:  Uncaught Exception: Invalid data: {"data":["Array","Array","Array","Array"],"element":"Array"} in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php:1052
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(123): Elementor\Core\Base\Document->get_elements_raw_data()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(321): WP_Background_Process_Astra->task()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/helpers/class-wp-background-process.php(468): WP_Background_Process->handle()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#8 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#9 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/elementor/core/base/document.php on line 1052
+[15-May-2024 11:28:58 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:23:06 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:28:28 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:34:15 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:48:27 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:54:25 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 15:58:12 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:00:09 UTC] Error de evento de reprogramación de cron para el gancho: rsssl_every_five_minutes_hook. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[15-May-2024 16:02:42 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:07:47 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:13:23 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:18:28 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:23:23 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:25:01 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php:2616
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2616): method_exists()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2471): rsssl_admin->validate_function()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(107): rsssl_admin->get_notices_list()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(80): rsssl_progress->get_lowest_possible_task_count()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(20): rsssl_progress->get_text()
+#5 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/settings/settings.php(722): rsssl_progress->get()
+#6 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): rsssl_rest_api_fields_set()
+#7 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#8 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#9 /home/o3sytpd22okr/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#10 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#11 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#12 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#14 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#15 /home/o3sytpd22okr/public_html/wp-includes/functions.php(1336): WP->main()
+#16 /home/o3sytpd22okr/public_html/wp-blog-header.php(16): wp()
+#17 /home/o3sytpd22okr/public_html/index.php(17): require('/home/o3sytpd22...')
+#18 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php on line 2616
+[15-May-2024 16:26:11 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php:2616
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2616): method_exists()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2471): rsssl_admin->validate_function()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(107): rsssl_admin->get_notices_list()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(80): rsssl_progress->get_lowest_possible_task_count()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(20): rsssl_progress->get_text()
+#5 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/settings/settings.php(722): rsssl_progress->get()
+#6 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): rsssl_rest_api_fields_set()
+#7 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#8 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#9 /home/o3sytpd22okr/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#10 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#11 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#12 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#14 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#15 /home/o3sytpd22okr/public_html/wp-includes/functions.php(1336): WP->main()
+#16 /home/o3sytpd22okr/public_html/wp-blog-header.php(16): wp()
+#17 /home/o3sytpd22okr/public_html/index.php(17): require('/home/o3sytpd22...')
+#18 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php on line 2616
+[15-May-2024 16:26:28 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php:2616
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2616): method_exists()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2471): rsssl_admin->validate_function()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(107): rsssl_admin->get_notices_list()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(80): rsssl_progress->get_lowest_possible_task_count()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(20): rsssl_progress->get_text()
+#5 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/settings/settings.php(722): rsssl_progress->get()
+#6 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): rsssl_rest_api_fields_set()
+#7 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#8 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#9 /home/o3sytpd22okr/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#10 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#11 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#12 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#13 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#14 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#15 /home/o3sytpd22okr/public_html/wp-includes/functions.php(1336): WP->main()
+#16 /home/o3sytpd22okr/public_html/wp-blog-header.php(16): wp()
+#17 /home/o3sytpd22okr/public_html/index.php(17): require('/home/o3sytpd22...')
+#18 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php on line 2616
+[15-May-2024 16:28:07 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:34:31 UTC] PHP Fatal error:  Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php:2616
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2616): method_exists()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php(2471): rsssl_admin->validate_function()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(53): rsssl_admin->get_notices_list()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/progress/class-progress.php(152): rsssl_progress->percentage()
+#4 /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/settings/settings.php(517): rsssl_progress->dismiss_task()
+#5 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): rsssl_run_test()
+#6 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#7 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#8 /home/o3sytpd22okr/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#9 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#10 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#13 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#14 /home/o3sytpd22okr/public_html/wp-includes/functions.php(1336): WP->main()
+#15 /home/o3sytpd22okr/public_html/wp-blog-header.php(16): wp()
+#16 /home/o3sytpd22okr/public_html/index.php(17): require('/home/o3sytpd22...')
+#17 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/really-simple-ssl/class-admin.php on line 2616
+[15-May-2024 16:37:44 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 16:43:09 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:00:21 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:04:41 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:27:07 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:28:43 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:37:47 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:43:53 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:47:43 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:54:04 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 17:57:51 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:09:17 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:12:50 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:18:39 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:22:50 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:28:14 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:32:42 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:38:57 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:49:21 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 18:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::get_data() in /home/o3sytpd22okr/public_html/wp-content/themes/astra/inc/compatibility/class-astra-elementor.php:372
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): Elementor\Astra_Elementor->elementor_add_theme_colors()
+#1 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1255): apply_filters()
+#3 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#4 /home/o3sytpd22okr/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#5 /home/o3sytpd22okr/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#6 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#7 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#10 /home/o3sytpd22okr/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#11 /home/o3sytpd22okr/public_html/wp-includes/functions.php(1336): WP->main()
+#12 /home/o3sytpd22okr/public_html/wp-blog-header.php(16): wp()
+#13 /home/o3sytpd22okr/public_html/index.php(17): require('/home/o3sytpd22...')
+#14 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/themes/astra/inc/compatibility/class-astra-elementor.php on line 372
+[15-May-2024 18:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 19:02:36 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 19:03:53 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 19:07:44 UTC] PHP Fatal error:  Uncaught Error: Class "Astra_Sites_Image_Importer" not found in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php:193
+Stack trace:
+#0 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php(71): Astra_Sites_Batch_Processing_Widgets->widget_media_image()
+#1 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra.php(40): Astra_Sites_Batch_Processing_Widgets->import()
+#2 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(321): WP_Background_Process_Astra->task()
+#3 /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php(468): WP_Background_Process->handle()
+#4 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(324): WP_Background_Process->handle_cron_healthcheck()
+#5 /home/o3sytpd22okr/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/o3sytpd22okr/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#7 /home/o3sytpd22okr/public_html/wp-cron.php(191): do_action_ref_array()
+#8 {main}
+  thrown in /home/o3sytpd22okr/public_html/wp-content/plugins/astra-sites/inc/importers/batch-processing/class-astra-sites-batch-processing-widgets.php on line 193
+[15-May-2024 19:09:07 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-May-2024 19:10:54 UTC] Error de evento de reprogramación de cron para el gancho: rsssl_every_five_minutes_hook. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[15-May-2024 19:13:39 UTC] Error de evento de reprogramación de cron para el gancho: wp_image_process_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"wp_image_process_cron_interval","args":[],"interval":300}
+[21-May-2024 05:47:01 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[24-May-2024 15:43:07 UTC] PHP Warning:  Ha ocurrido un error inesperado. Puede que algo vaya mal con WordPress.org o la configuración de este servidor. Si sigues teniendo problemas, por favor, prueba en los <a href="https://es.wordpress.org/support/">foros de soporte</a>. (WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor). in /home/o3sytpd22okr/public_html/wp-admin/includes/translation-install.php on line 62
+[09-Jun-2024 04:54:50 UTC] Error de evento de reprogramación de cron para el gancho: rsssl_every_five_minutes_hook. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[09-Jun-2024 04:54:50 UTC] Error de evento de anulación de programación de cron para el gancho: rsssl_every_five_minutes_hook. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[09-Jun-2024 21:11:19 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[15-Jun-2024 22:01:20 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[22-Jun-2024 10:17:53 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[22-Jun-2024 10:17:53 UTC] Error de evento de reprogramación de cron para el gancho: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[18-Jul-2024 17:11:54 UTC] Error de evento de reprogramación de cron para el gancho: action_scheduler_run_queue. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[18-Jul-2024 17:12:02 UTC] Error de evento de reprogramación de cron para el gancho: rsssl_every_five_minutes_hook. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[24-Jul-2024 11:35:18 UTC] Error de evento de reprogramación de cron para el gancho: elementor_1_elementor_updater_cron. Código de error: invalid_schedule. Mensaje de error: El evento programado no existe.. Datos: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
