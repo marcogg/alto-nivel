@@ -73,8 +73,8 @@ button:focus,
 }
 
 .form-check-input:checked {
-  background-color: #3080E3;
-  border-color: #3080E3;
+  background-color: #004F45;
+  border-color: #004F45;
 }
 
 select {
@@ -925,7 +925,7 @@ ol {
   padding-bottom: 50px;
   z-index: 2;
   text-align: left;
-  background: linear-gradient(-45deg, #fd723b, #3080E3);
+  background: linear-gradient(-45deg, #fd723b, #004F45);
   -webkit-box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.075);
   box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.075);
 }
@@ -1077,8 +1077,8 @@ ol {
   font-weight: 500;
   display: inline-block;
   margin-bottom: 20px;
-  color: #3080E3;
-  border: 2px solid #3080E3;
+  color: #004F45;
+  border: 2px solid #004F45;
   border-radius: 30px;
   padding: 8px 30px;
   text-transform: capitalize;
@@ -1162,7 +1162,7 @@ ol {
   bottom: -1px;
   height: 2px;
   width: 50px;
-  background: #3080E3;
+  background: #004F45;
   content: "";
 }
 
@@ -1181,7 +1181,7 @@ ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #3080E3;
+  background: #004F45;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1290,7 +1290,7 @@ ol {
 
 .pagination .pagination-list li.active a,
 .pagination .pagination-list li:hover a {
-  background: #3080E3;
+  background: #004F45;
   color: #fff;
   border-color: transparent;
 }
@@ -1310,7 +1310,7 @@ ol {
   font-size: 15px;
   font-weight: 500;
   padding: 16px 30px;
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
   border: none;
   -webkit-transition: all 0.3s ease;
@@ -1378,7 +1378,7 @@ ol {
 }
 
 .button .btn-alt:hover {
-  background-color: #3080E3 !important;
+  background-color: #004F45 !important;
   color: #fff !important;
 }
 
@@ -1427,7 +1427,7 @@ ol {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: #3080E3;
+  background: #004F45;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -1505,11 +1505,11 @@ ol {
   }
 
   .header .navbar .navbar-nav .nav-item a:hover {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar .navbar-nav .nav-item a.active {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item {
@@ -1517,7 +1517,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item:hover a {
-    color: #3080E3;
+    color: #004F45;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1546,7 +1546,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item .sub-menu .nav-item a:hover {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1567,7 +1567,7 @@ ol {
 
   .header .navbar-nav .nav-item .sub-menu li.active {
     background: #fff !important;
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item .sub-menu .nav-item {
@@ -1580,7 +1580,7 @@ ol {
 
   .header .navbar-nav .nav-item .sub-menu li:hover {
     background: #fff !important;
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1588,7 +1588,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item a:hover {
-    color: #3080E3;
+    color: #004F45;
   }
 }
 
@@ -1618,11 +1618,11 @@ ol {
   }
 
   .header .navbar .navbar-nav .nav-item a:hover {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar .navbar-nav .nav-item a.active {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item {
@@ -1630,7 +1630,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item:hover a {
-    color: #3080E3;
+    color: #004F45;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1659,7 +1659,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item .sub-menu .nav-item a:hover {
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1680,7 +1680,7 @@ ol {
 
   .header .navbar-nav .nav-item .sub-menu li.active {
     background: #fff !important;
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item .sub-menu .nav-item {
@@ -1693,7 +1693,7 @@ ol {
 
   .header .navbar-nav .nav-item .sub-menu li:hover {
     background: #fff !important;
-    color: #3080E3 !important;
+    color: #004F45 !important;
   }
 
   .header .navbar-nav .nav-item a {
@@ -1701,7 +1701,7 @@ ol {
   }
 
   .header .navbar-nav .nav-item a:hover {
-    color: #3080E3;
+    color: #004F45;
   }
 }
 
@@ -1728,7 +1728,7 @@ ol {
 }
 
 .header.sticky .button .btn {
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
 }
 
@@ -1755,11 +1755,11 @@ ol {
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
@@ -1858,11 +1858,11 @@ ol {
 }
 
 .navbar-nav .nav-item:hover a {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .sticky .navbar-nav .nav-item:hover a {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .navbar-nav .nav-item a {
@@ -1993,7 +1993,7 @@ ol {
 }
 
 .navbar-nav .nav-item .sub-menu .nav-item a:hover {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .navbar-nav .nav-item .sub-menu.left-menu {
@@ -2021,7 +2021,7 @@ ol {
 }
 
 .navbar-nav .nav-item .sub-menu>li.active>a {
-  color: #3080E3 !important;
+  color: #004F45 !important;
 }
 
 .navbar-nav .nav-item .sub-menu>li>a {
@@ -2070,11 +2070,11 @@ ol {
 }
 
 .sticky .button .signin:hover {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .sticky .button .signup {
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
 }
 
@@ -2092,11 +2092,11 @@ ol {
 }
 
 .others-pages .button .signin:hover {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .others-pages .button .signup {
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
 }
 
@@ -2112,11 +2112,11 @@ ol {
   }
 
   .header .button .signin:hover {
-    color: #3080E3;
+    color: #004F45;
   }
 
   .header .button .signup {
-    background-color: #3080E3;
+    background-color: #004F45;
     color: #fff;
   }
 
@@ -2336,7 +2336,7 @@ only screen and (min-width: 1400px) {
 }
 
 .hero-area .hero-content h1 span.color2 {
-  color: #fd723b;
+  color: #004F45;
 }
 
 .hero-area .hero-content p {
@@ -2445,7 +2445,7 @@ only screen and (min-width: 1400px) {
   right: calc(50% - 1145px);
   width: 1000px;
   height: 1000px;
-  background: #3080E3;
+  background: #004F45;
   position: absolute;
   border-radius: 50%;
   z-index: 1;
@@ -2532,13 +2532,13 @@ only screen and (min-width: 1400px) {
   text-align: center;
   display: inline-block;
   background-color: transparent;
-  color: #3080E3;
+  color: #004F45;
   border-radius: 50%;
   border: 1px solid #e0e0e0;
 }
 
 .hero-area.style2 .hero-content .video:hover .video-icon {
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
   border-color: transparent;
 }
@@ -2690,9 +2690,9 @@ only screen and (min-width: 1400px) {
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 25px;
-  color: #3080e3;
+  color: #004F45;
   padding: 8px 20px;
-  border: 2px solid #3080e3;
+  border: 2px solid #004F45;
   display: inline-block;
   border-radius: 30px;
 }
@@ -2752,7 +2752,7 @@ only screen and (min-width: 1400px) {
 }
 
 .pricing-table .single-table .table-content .table-list li i {
-  color: #3080E3;
+  color: #004F45;
   font-size: 14px;
   position: absolute;
   left: 0;
@@ -2769,7 +2769,7 @@ only screen and (min-width: 1400px) {
 }
 
 .pricing-table.style2 .single-table .table-head .title {
-  color: #3080E3;
+  color: #004F45;
   border: none;
   padding: 0;
   text-transform: uppercase;
@@ -2856,7 +2856,7 @@ only screen and (min-width: 1400px) {
 }
 
 .call-action.style2 {
-  background-color: #3080E3;
+  background-color: #004F45;
   padding: 0;
 }
 
@@ -2868,7 +2868,7 @@ only screen and (min-width: 1400px) {
   position: relative;
   padding: 50px;
   border-radius: 10px;
-  background-color: #3080E3;
+  background-color: #004F45;
   z-index: 0;
   overflow: hidden;
 }
@@ -2916,7 +2916,7 @@ only screen and (min-width: 1400px) {
 
 .call-action .text h2 span {
   display: block;
-  color: #3080E3;
+  color: #004F45;
 }
 
 .call-action .button {
@@ -3001,7 +3001,7 @@ only screen and (min-width: 1400px) {
   line-height: 65px;
   border-radius: 15px;
   color: #fff;
-  background-color: #3080E3;
+  background-color: #004F45;
   text-align: center;
   font-size: 30px;
   -webkit-box-shadow: 0px 10px 30px rgba(48, 128, 227, 0.18);
@@ -3020,7 +3020,7 @@ only screen and (min-width: 1400px) {
 }
 
 .single-service a {
-  color: #3080E3;
+  color: #004F45;
   margin-top: 40px;
   display: inline-block;
   font-weight: 500;
@@ -3130,7 +3130,7 @@ only screen and (min-width: 1400px) {
 }
 
 .footer .single-footer.f-about .copyright-text a {
-  color: #3080E3;
+  color: #004F45;
 }
 
 .footer .single-footer.f-about .copyright-text a:hover {
@@ -3153,7 +3153,7 @@ only screen and (min-width: 1400px) {
 }
 
 .footer .single-footer.f-link li a:hover {
-  color: #3080E3;
+  color: #004F45;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
@@ -3203,11 +3203,11 @@ only screen and (min-width: 1400px) {
 }
 
 .footer .newsletter-form input:hover {
-  border-color: #3080E3;
+  border-color: #004F45;
 }
 
 .footer .newsletter-form input:focus {
-  border-color: #3080E3;
+  border-color: #004F45;
 }
 
 .footer .newsletter-form .button {
@@ -3222,7 +3222,7 @@ only screen and (min-width: 1400px) {
   height: 42px;
   width: 42px;
   border-radius: 6px;
-  background-color: #3080E3;
+  background-color: #004F45;
   color: #fff;
   text-align: center;
   line-height: 42px;
