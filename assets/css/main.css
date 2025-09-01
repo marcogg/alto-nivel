@@ -2142,15 +2142,27 @@ ol {
   padding: 220px 0 160px 0;
 }
 
+.hero-area.pages {
+  padding: 60px 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area {
     padding: 130px 0 70px 0;
+  }
+
+  .hero-area.pages {
+    padding: 60px 0;
   }
 }
 
 @media (max-width: 767px) {
   .hero-area {
     padding: 110px 0 60px 0;
+  }
+
+  .hero-area.pages {
+    padding: 60px 0;
   }
 }
 
@@ -2165,9 +2177,24 @@ ol {
   z-index: 1;
 }
 
+.hero-area .main__circle_services {
+  top: -98px;
+  right: calc(50% - 1180px);
+  width: 1000px;
+  height: 1000px;
+  background: #99f9ec;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
   .hero-area .main__circle {
+    display: none;
+  }
+
+  .hero-area .main__circle_services {
     display: none;
   }
 }
@@ -2648,7 +2675,7 @@ only screen and (min-width: 1400px) {
 	Pricing Table CSS
 ===============================*/
 .pricing-table {
-  background-color: #fff;
+  background-color: #ffffff00;
 }
 
 .pricing-table .section-title {
@@ -3007,6 +3034,8 @@ only screen and (min-width: 1400px) {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.048);
   background-color: #fff;
   margin-top: 30px;
+  position: relative;
+  z-index: 50;
 }
 
 .single-service .service-icon {
@@ -3313,4 +3342,34 @@ form .btn {
   z-index: 1;
   margin-right: 7px;
   overflow: hidden;
+}
+
+.form-container {
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.84);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(18.2px);
+  -webkit-backdrop-filter: blur(18.2px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  z-index: 10;
+}
+
+.glass-container {
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #fff;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.84);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(18.2px);
+  -webkit-backdrop-filter: blur(18.2px);
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  z-index: 10;
 }
