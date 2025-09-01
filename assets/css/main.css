@@ -3286,6 +3286,12 @@ only screen and (min-width: 1400px) {
   padding: 0 200px;
 }
 
+@media screen and (max-width: 767px) {
+  .contact {
+    padding: 0 15px;
+  }
+}
+
 .contact a {
   color: #14534b;
   text-decoration: none;
