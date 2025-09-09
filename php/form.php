@@ -6,7 +6,7 @@ require 'vendor/autoload.php'; // Make sure PHPMailer is installed via Composer
 
 
 // Recaptcha secret key
-define('RECAPTCHA_SECRET_KEY', 'YOUR_RECAPTCHA_SECRET_KEY');
+define('RECAPTCHA_SECRET_KEY', '6Leg7borAAAAAE5WoHOawnjIUq_jKYbBqG9J4_h2');
 
 // Validate inputs
 function validate_input($name, $phone, $email) {
@@ -43,7 +43,7 @@ function send_contact_email($name, $phone, $email) {
     try {
         //Server settings
         $mail->isSMTP();
-        $mail->Host       = 'smtp.example.com'; // Set your SMTP server
+        $mail->Host       = 'smtp.americanet.mx'; // Set your SMTP server
         $mail->SMTPAuth   = true;
         $mail->Username   = 'your@email.com';   // SMTP username
         $mail->Password   = 'yourpassword';     // SMTP password
@@ -51,8 +51,8 @@ function send_contact_email($name, $phone, $email) {
         $mail->Port       = 587;
 
         //Recipients
-        $mail->setFrom('your@email.com', 'Web Contact');
-        $mail->addAddress('recipient@email.com', 'Recipient Name');
+        $mail->setFrom('marcogarcia.gon@gmail.com', 'Web Contact');
+        $mail->addAddress('no-responder@americanet.mx', 'Notificaciones');
 
         //Content
         $mail->isHTML(true);

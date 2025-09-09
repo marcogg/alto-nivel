@@ -525,7 +525,7 @@
 
                 </div><!-- FORM -->
                 <div class="col-lg-7">
-                    <form class="px-5">
+                    <form class="px-5" id="contact-form">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
@@ -541,7 +541,9 @@
                             <input type="phone" class="form-control" id="exampleInputName">
                         </div>
 
-                        <button type="submit" class="btn">Enviar</button>
+                        <button class="g-recaptcha btn" type="submit"
+                            data-sitekey="6Leg7borAAAAAE2qC5WVoTM8LzZEM0fZeCqW0neQ" data-callback='onSubmit'
+                            data-action='submit'>Enviar</button>
                     </form>
                 </div>
             </div>
@@ -629,12 +631,20 @@
     </a>
 
     <!-- ========================= JS here ========================= -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/tiny-slider.js"></script>
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- RECAPTCHA -->
+    <script>
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+        }
+    </script>
     <script>
         //========= testimonial 
         tns({
