@@ -3306,6 +3306,10 @@ only screen and (min-width: 1400px) {
   margin-right: 15px;
 }
 
+.contact-icon.bar {
+  margin-right: 0;
+}
+
 .contact-icon i {
   color: #fff;
   font-size: 18px;
