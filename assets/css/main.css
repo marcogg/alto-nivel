@@ -925,7 +925,7 @@ ol {
   padding-bottom: 50px;
   z-index: 2;
   text-align: left;
-  background: linear-gradient(-45deg, #57CC99, #0D3B66);
+  background: linear-gradient(-45deg, #0D3B66, #0D3B66);
   -webkit-box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.075);
   box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.075);
 }
@@ -1212,7 +1212,7 @@ ol {
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: #57CC99;
+  background-color: #0D3B66;
 }
 
 /* Overlay */
@@ -1353,7 +1353,7 @@ ol {
 
 .button .btn:hover {
   color: #fff;
-  background-color: #57CC99;
+  background-color: #0D3B66;
 }
 
 .button {
@@ -1361,7 +1361,7 @@ ol {
 }
 
 .button .btn-alt {
-  background-color: #57CC99 !important;
+  background-color: #0D3B66 !important;
   color: #fff !important;
 }
 
@@ -1737,7 +1737,7 @@ ol {
 }
 
 .header.sticky .button .btn:hover {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   color: #fff;
 }
 
@@ -2066,7 +2066,7 @@ ol {
 
 .button .signup:hover {
   color: #fff;
-  background-color: #57CC99;
+  background-color: #0D3B66;
 }
 
 .sticky .button .signin {
@@ -2083,7 +2083,7 @@ ol {
 }
 
 .sticky .button .signup:hover {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   color: #fff;
 }
 
@@ -2105,7 +2105,7 @@ ol {
 }
 
 .others-pages .button .signup:hover {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   color: #fff;
 }
 
@@ -2125,7 +2125,7 @@ ol {
   }
 
   .header .button .signup:hover {
-    background-color: #57CC99;
+    background-color: #0D3B66;
     color: #fff;
   }
 }
@@ -2182,7 +2182,7 @@ ol {
   right: calc(50% - 1180px);
   width: 1000px;
   height: 1000px;
-  background: #99f9ec;
+  background: #5f94f0;
   position: absolute;
   border-radius: 50%;
   z-index: 0;
@@ -2200,12 +2200,12 @@ ol {
 }
 
 .hero-area .main__circle2 {
-  right: calc(50% - 270px);
+  right: calc(35% - 270px);
   bottom: -75px;
   z-index: 2;
   width: 150px;
   height: 150px;
-  background: #57CC99;
+  background: #0D3B66;
   position: absolute;
   border-radius: 50%;
 }
@@ -2222,7 +2222,7 @@ ol {
   left: -180px;
   width: 350px;
   height: 350px;
-  background: #E9C46A;
+  background: #6aaee9;
   position: absolute;
   border-radius: 50%;
 }
@@ -2239,7 +2239,7 @@ ol {
   left: 30px;
   width: 48px;
   height: 48px;
-  background: #BFFFF7;
+  background: #bfe3ff;
   position: absolute;
   border-radius: 50%;
 }
@@ -2286,10 +2286,10 @@ only screen and (min-width: 1400px) {
   left: -45px;
   width: 110px;
   height: 110px;
-  background: #BFFFF7;
+  background: #bfe3ff;
   position: absolute;
   border-radius: 50%;
-  z-index: -1;
+  z-index: -10;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
@@ -2511,7 +2511,7 @@ only screen and (min-width: 1400px) {
 }
 
 .hero-area.style2 .hero-content h1 .secondary-color {
-  color: #57CC99;
+  color: #0D3B66;
 }
 
 .hero-area.style2 .hero-content p {
@@ -2713,8 +2713,8 @@ only screen and (min-width: 1400px) {
 }
 
 .pricing-table .single-table.middle .table-head .title {
-  border-color: #57CC99;
-  color: #57CC99;
+  border-color: #0D3B66;
+  color: #0D3B66;
 }
 
 .pricing-table .single-table .table-head .title {
@@ -2796,7 +2796,7 @@ only screen and (min-width: 1400px) {
 }
 
 .pricing-table.style2 .single-table.middle .table-head .title {
-  color: #57CC99;
+  color: #0D3B66;
 }
 
 .pricing-table.style2 .single-table .table-head .title {
@@ -2899,7 +2899,7 @@ only screen and (min-width: 1400px) {
   position: relative;
   padding: 50px;
   border-radius: 24px;
-  background-color: #0D3B66;
+  background-color: #195c9a;
   z-index: 0;
   overflow: hidden;
   position: relative;
@@ -2962,7 +2962,7 @@ only screen and (min-width: 1400px) {
 }
 
 .call-action .button .btn:hover {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   color: #fff;
 }
 
@@ -2978,7 +2978,7 @@ only screen and (min-width: 1400px) {
 }
 
 .section-boxes {
-  background-color: #57CC99;
+  background-color: #0D3B66;
 }
 
 .rounded-corners {
@@ -3082,19 +3082,19 @@ only screen and (min-width: 1400px) {
 }
 
 .single-service.two .service-icon {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   -webkit-box-shadow: 0px 10px 30px rgba(59, 253, 153, 0.25);
   box-shadow: 0px 10px 30px rgba(59, 253, 182, 0.25);
 }
 
 .single-service.two a {
-  color: #57CC99;
+  color: #0D3B66;
 }
 
 .single-service.three .service-icon {
   background-color: #E9C46A;
-  -webkit-box-shadow: 0px 10px 30px rgba(66, 255, 198, 0.26);
-  box-shadow: 0px 10px 30px rgba(66, 255, 173, 0.26);
+  -webkit-box-shadow: 0px 10px 30px rgba(255, 242, 66, 0.26);
+  box-shadow: 0px 10px 30px rgba(252, 255, 66, 0.26);
 }
 
 .single-service.three a {
@@ -3102,9 +3102,9 @@ only screen and (min-width: 1400px) {
 }
 
 .single-service.four .service-icon {
-  background-color: #14534b;
-  -webkit-box-shadow: 0px 10px 30px rgba(66, 255, 123, 0.26);
-  box-shadow: 0px 10px 30px rgba(66, 255, 154, 0.26);
+  background-color: #ce9c1f;
+  -webkit-box-shadow: 0px 10px 30px rgba(255, 242, 66, 0.26);
+  box-shadow: 0px 10px 30px rgba(252, 255, 66, 0.26);
 }
 
 .single-service.four a {
@@ -3188,7 +3188,7 @@ only screen and (min-width: 1400px) {
 }
 
 .footer .single-footer.f-about .copyright-text a:hover {
-  color: #57CC99;
+  color: #0D3B66;
 }
 
 .footer .single-footer.f-link li {
@@ -3291,11 +3291,11 @@ only screen and (min-width: 1400px) {
 
 .footer .newsletter-form .button .sub-btn:hover {
   color: #fff;
-  background-color: #57CC99;
+  background-color: #0D3B66;
 }
 
 .contact-icon {
-  background-color: #57CC99;
+  background-color: #0D3B66;
   border-radius: 12px;
   padding: 8px;
   width: 36px;
@@ -3308,11 +3308,16 @@ only screen and (min-width: 1400px) {
 
 .contact-icon.bar {
   margin-right: 0;
+  margin-bottom: 24px;
+  box-shadow: rgba(9, 113, 64, 0.524) 0px 0px 8px;
+  border: solid 2px #a3dfed;
+  width: 48px;
+  height: 48px;
 }
 
 .contact-icon i {
   color: #fff;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .contact {
@@ -3383,4 +3388,17 @@ form .btn {
   position: relative;
   top: -84px;
   left: 160px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 64px;
+  min-height: 180px;
+  z-index: 1000;
 }
