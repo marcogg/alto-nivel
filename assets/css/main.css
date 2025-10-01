@@ -30,6 +30,22 @@ Index Of css
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* APTOS FONT */
+@import url(../fonts/Aptos.woff2);
+@import url(../fonts/Aptos-Bold.woff2);
+
+@font-face {
+  font-family: 'Aptos', sans-serif;
+  src: url(../fonts/Aptos.woff2) format("woff2"),
+    url(../fonts/Aptos.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Aptos-Bold', sans-serif;
+  src: url(../fonts/Aptos-Bold.woff2) format("woff2"),
+    url(../fonts/Aptos-Bold.woff) format("woff");
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -141,7 +157,7 @@ h6 {
   font-weight: 600;
   margin: 0px;
   color: #151515;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Aptos-Bold', sans-serif;
 }
 
 h1 a,
