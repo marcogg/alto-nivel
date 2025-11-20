@@ -166,23 +166,22 @@
 
                 </div><!-- FORM -->
                 <div class="col-lg-7 col-md-7 col-12 form-container">
-                    <form class="px-5" action="./php/form.php" method="POST">
+                    <form id="quoteForm" action="php/process-quote.php" method="POST"
+                        class="form grid-cols-1 md:grid-cols-2 gap-4 w-full">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
+                            <input class="w-100 mb-1 form-control" type="text" name="fullname"
+                                placeholder="Nombre completo" required />
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputName" class="form-label">Nombre</label>
-                            <input type="name" class="form-control" id="exampleInputName">
+                            <input class="w-100 mb-1 form-control" type="email" name="email" placeholder="Email"
+                                required />
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputName" class="form-label">Teléfono</label>
-                            <input type="phone" class="form-control" id="exampleInputName">
+                            <input class="w-100 mb-1 form-control" type="tel" name="phone" placeholder="Teléfono"
+                                required pattern="[0-9]{10}" />
                         </div>
-
-                        <button type="submit" class="btn">Enviar</button>
+                        <button type="submit" class="button bg-yellow-500 btn btn-block">Enviar</button>
+                        <div id="formMessage" class="hidden md:col-span-2"></div>
                     </form>
                 </div>
             </div>
@@ -198,7 +197,7 @@
                 <div class="inner-content">
                     <div class="row justify-content-center align-items-top">
                         <!-- col 1 -->
-                        <div class="col-lg-3 col-md-3 col-12">
+                        <div class="col-lg-4 col-md-3 col-12">
                             <!-- Single Widget -->
                             <div class="single-footer f-about">
                                 <div class="logo">
@@ -210,8 +209,12 @@
                                     </a> -->
                                 </div>
                                 <p>Alto Nivel Seguridad Privada en Mérida, Yucatán</p>
-                                <p class="copyright-text"><span>© 2025 Derechos reservados </span>Diseño por <a
-                                        href="https://americanet.mx" rel="nofollow" target="_blank">America Net</a>
+                                <p class="copyright-text"><span>© 2025 Derechos reservados </span><a
+                                        href="https://americanet.mx" rel="nofollow" target="_blank">Diseño de página web
+                                        por America Net</a>
+                                </p>
+                                <p class="copyright-text"><a href="/aviso-de-privacidad.pdf" rel="nofollow"
+                                        target="_blank">Política de privacidad</a>
                                 </p>
                             </div>
                             <!-- End Single Widget -->
@@ -341,6 +344,47 @@
             append: " ",
         });
         cu.start();
+    </script>
+
+    <!-- FORM JS -->
+    <script>
+        document.getElementById('quoteForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(this);
+            const messageDiv = document.getElementById('formMessage');
+
+            // Muestra un mensaje de "cargando"
+            messageDiv.innerHTML = '<div class="bg-light text-muted px-4 py-3 rounded">Enviando...</div>';
+            messageDiv.classList.remove('hidden');
+
+            fetch('process-quote.php', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        messageDiv.innerHTML = `<div class="bg-success text-darkpx-4 py-3 rounded">${data.message}</div>`;
+                        this.reset();
+                        // Tu redirección:
+                        setTimeout(() => {
+                            window.location.href = 'gracias-por-contactarnos.html';
+                        }, 1500);
+                    } else {
+                        // Une los errores del array de PHP o muestra el mensaje
+                        const errorMessages = data.errors && data.errors.length > 0
+                            ? data.errors.join('<br>')
+                            : data.message;
+                        messageDiv.innerHTML = `<div class="bg-warning text-dark px-4 py-3 rounded">${errorMessages}</div>`;
+                    }
+                })
+                .catch(error => {
+                    // Este error salta si el PHP tiene un error fatal o no devuelve JSON
+                    console.error('Error en Fetch:', error);
+                    messageDiv.innerHTML = '<div class="bg-danger text-white px-4 py-3 rounded">Error al procesar la solicitud. Revisa la consola (F12).</div>';
+                });
+        });
     </script>
 </body>
 

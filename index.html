@@ -530,8 +530,8 @@
                             <img class="h-16 w-16 rounded-full object-cover"
                                 src="assets/images/placeholders/avatar-1.png" alt="" />
                             <div class="pl-4">
-                                <strong class="mt-6 mb-2 text-md">José L., Montebello, </strong>
-                                <p class="text-gray-500 text-xs mt-3">Consultor</p>
+                                <strong class="mt-6 mb-2 text-md">José L., García</strong>
+                                <p class="text-gray-500 text-xs mt-3">Montebello</p>
                             </div>
                         </div>
                         <p class="leading-loose text-blueGray-400 mb-5">Contratamos seguridad para la residencia y la
@@ -557,7 +557,7 @@
                                 src="assets/images/placeholders/avatar-2.png" alt="" />
                             <div class="pl-4">
                                 <strong class="mt-6 mb-2 text-md">Ana María Gomez</strong>
-                                <p class="text-gray-500 text-xs mt-3">Doctora</p>
+                                <p class="text-gray-500 text-xs mt-3">Mérida Centro</p>
                             </div>
                         </div>
                         <p class="leading-loose text-blueGray-400 mb-5">Instalaron vigilancia en 48 hrs. Personal
@@ -580,7 +580,7 @@
                                 src="assets/images/placeholders/avatar-4.png" alt="" />
                             <div class="pl-4">
                                 <strong class="mt-6 mb-2 text-md">Leticia Ruiz</strong>
-                                <p class="text-gray-500 text-xs mt-3">Project-Manager</p>
+                                <p class="text-gray-500 text-xs mt-3">Cholul</p>
                             </div>
                         </div>
                         <p class="leading-loose text-blueGray-400 mb-5">Respuesta inmediata ante una alarma y
@@ -603,7 +603,7 @@
                                 src="assets/images/placeholders/avatar-3.png" alt="" />
                             <div class="pl-4">
                                 <strong class="mt-6 mb-2 text-md">Gustavo Cuellar</strong>
-                                <p class="text-gray-500 text-xs mt-3">Ejecutivo Marketing</p>
+                                <p class="text-gray-500 text-xs mt-3">Mérida</p>
                             </div>
                         </div>
                         <p class="leading-loose text-blueGray-400 mb-5">Excelente servicio en nuestro condominio:
@@ -698,7 +698,7 @@
                 <div class="inner-content">
                     <div class="row justify-content-center align-items-top">
                         <!-- col 1 -->
-                        <div class="col-lg-3 col-md-3 col-12">
+                        <div class="col-lg-4 col-md-3 col-12">
                             <!-- Single Widget -->
                             <div class="single-footer f-about">
                                 <div class="logo">
@@ -710,8 +710,9 @@
                                     </a> -->
                                 </div>
                                 <p>Alto Nivel Seguridad Privada en Mérida, Yucatán</p>
-                                <p class="copyright-text"><span>© 2025 Derechos reservados </span>Diseño por <a
-                                        href="https://americanet.mx" rel="nofollow" target="_blank">America Net</a>
+                                <p class="copyright-text"><span>© 2025 Derechos reservados </span><a
+                                        href="https://americanet.mx" rel="nofollow" target="_blank">Diseño de página web
+                                        por America Net</a>
                                 </p>
                             </div>
                             <!-- End Single Widget -->
@@ -778,14 +779,14 @@
     </div>
 
     <!-- MODAL -->
-    <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
         style="background-color: rgba(0, 0, 0, 0.75);">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Aprovecha la promoción</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        id="closeBtn"></button>
                 </div>
                 <div class="modal-body">
                     <img src="assets/images/promo.jpg" class="img-fluid" alt="Promoción de Seguridad Privada">
@@ -793,7 +794,8 @@
                 <div class="modal-footer">
                     <button type="button" id="closeBtn" class="btn btn-secondary"
                         data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Quiero mi descuento</button>
+                    <button type="button" class="btn btn-primary" onclick="changeLocation()">Quiero mi
+                        descuento</button>
                 </div>
             </div>
         </div>
@@ -829,17 +831,17 @@
     <!-- MODAL JS -->
     <script>
         // Show modal 1 second after DOM is loaded
-        document.addEventListener('DOMContentLoaded', function () {
-            setTimeout(function () {
-                var modal = document.querySelector('.modal');
-                if (modal) {
-                    modal.style.display = 'block';
-                    modal.classList.add('show');
-                    modal.setAttribute('aria-modal', 'true');
-                    modal.removeAttribute('aria-hidden');
-                }
-            }, 3000);
-        });
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     setTimeout(function () {
+        //         var modal = document.querySelector('.modal');
+        //         if (modal) {
+        //             modal.style.display = 'block';
+        //             modal.classList.add('show');
+        //             modal.setAttribute('aria-modal', 'true');
+        //             modal.removeAttribute('aria-hidden');
+        //         }
+        //     }, 3000);
+        // });
 
         const closeBtn = document.querySelector('.btn-close');
         document.addEventListener('click', function (event) {
@@ -911,6 +913,87 @@
             append: " ",
         });
         cu.start();
+    </script>
+
+    <script>
+        window.changeLocation = function () {
+            window.location.href = "https://wa.me/529995838000?text=Quiero%20aprovechar%20la%20promoci%C3%B3n%20de%20Alto%20Nivel%20Seguridad%20Privada";
+        };
+    </script>
+    <script>
+        // Modal con "cookie" en LocalStorage que expira en 24 horas
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            // CONFIGURACIÓN
+            const MODAL_ID = 'exampleModal';
+            const BTN_CERRAR_ID = 'closeBtn';
+            const STORAGE_KEY = 'modal_visto_cookie'; // Nombre de nuestra "cookie" en local
+            const HORAS_EXPIRACION = 24;
+
+            // Referencias al DOM
+            const modal = document.getElementById(MODAL_ID);
+            const btnCerrar = document.getElementById(BTN_CERRAR_ID);
+
+            // --- LÓGICA PRINCIPAL ---
+
+            // 1. Función para guardar en LocalStorage con expiración
+            const guardarCookieModal = () => {
+                const ahora = new Date();
+                const item = {
+                    valor: true, // Que ya se vio
+                    expiracion: ahora.getTime() + (HORAS_EXPIRACION * 60 * 60 * 1000) // Ahora + 24h en milisegundos
+                };
+
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(item));
+            };
+
+            // 2. Función para verificar si debemos mostrar el modal
+            const debeMostrarModal = () => {
+                const itemStr = localStorage.getItem(STORAGE_KEY);
+
+                // Si no existe nada guardado, mostramos el modal
+                if (!itemStr) {
+                    return true;
+                }
+
+                const item = JSON.parse(itemStr);
+                const ahora = new Date();
+
+                // Comparamos la hora actual con la de expiración guardada
+                if (ahora.getTime() > item.expiracion) {
+                    // Si ya pasó la hora de expiración, borramos el dato viejo y mostramos modal
+                    localStorage.removeItem(STORAGE_KEY);
+                    return true;
+                }
+
+                // Si existe y NO ha expirado, no mostramos nada
+                return false;
+            };
+
+            // --- EJECUCIÓN ---
+
+            // Verificamos al cargar
+            if (debeMostrarModal()) {
+                setTimeout(function () {
+                    var modal = document.querySelector('.modal');
+                    if (modal) {
+                        modal.style.display = 'block';
+                        modal.classList.add('show');
+                        modal.setAttribute('aria-modal', 'true');
+                        modal.removeAttribute('aria-hidden');
+                    }
+                }, 3000);
+            }
+
+            // Evento para cerrar
+            btnCerrar.addEventListener('click', () => {
+                modal.classList.remove('block'); // Ocultamos visualmente
+                modal.classList.add('hidden'); // Ocultamos visualmente
+                guardarCookieModal(); // Guardamos que ya se vio (empiezan a contar las 24h)
+            });
+
+        });
     </script>
 </body>
 
