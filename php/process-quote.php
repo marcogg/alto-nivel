@@ -62,13 +62,13 @@ try {
     $mail->Host       = 'mail.seguridadprivadaenmerida.com'; // CAMBIA ESTO
     $mail->SMTPAuth   = true;
     $mail->Username   = 'no-responder@seguridadprivadaenmerida.com'; // CAMBIA ESTO
-    $mail->Password   = 'acme2025*'; // CAMBIA ESTO
+    $mail->Password   = getenv('PASSWORD'); // CAMBIA ESTO
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
     // --- Remitente y Destinatarios ---
     $mail->setFrom('no-responder@seguridadprivadaenmerida.com', 'Nueva entrada en formulario web');
-    $mail->addAddress('marcogarcia.gon@gmail.com'); // A quién le llega
+    $mail->addAddress('seguridadaltonivel@hotmail.com'); // A quién le llega
     $mail->addReplyTo($email, $fullname);
 
     // --- Contenido ---

@@ -667,7 +667,7 @@
 
                 </div><!-- FORM -->
                 <div class="col-lg-6">
-                    <form id="quoteForm" action="php/process-quote.php" method="POST"
+                    <form id="quoteForm" action="./php/process-quote.php" method="POST"
                         class="form grid-cols-1 md:grid-cols-2 gap-4 w-full">
                         <div class="mb-3">
                             <input class="w-100 mb-1 form-control" type="text" name="fullname"
@@ -840,14 +840,14 @@
             messageDiv.innerHTML = '<div class="bg-light text-muted px-4 py-3 rounded">Enviando...</div>';
             messageDiv.classList.remove('hidden');
 
-            fetch('process-quote.php', {
+            fetch('./php/process-quote.php', {
                 method: 'POST',
                 body: formData
             })
                 .then(response => response.json())
                 .then(data => {
                     if (data.success) {
-                        messageDiv.innerHTML = `<div class="bg-success text-darkpx-4 py-3 rounded">${data.message}</div>`;
+                        messageDiv.innerHTML = `<div class="bg-success text-white px-4 py-3 rounded">${data.message}</div>`;
                         this.reset();
                         // Tu redirección:
                         setTimeout(() => {
