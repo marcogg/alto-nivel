@@ -59,7 +59,7 @@ try {
     $mail->SMTPDebug = 0; // O coméntalo como arriba
 
     $mail->isSMTP();
-    $mail->Host       = 's11145.sgp1.stableserver.net'; // CAMBIA ESTO
+    $mail->Host       = 'mail.seguridadprivadaenmerida.com'; // CAMBIA ESTO
     $mail->SMTPAuth   = true;
     $mail->Username   = 'no-responder@seguridadprivadaenmerida.com'; // CAMBIA ESTO
     $mail->Password   = 'acme2025*'; // CAMBIA ESTO
@@ -68,7 +68,7 @@ try {
 
     // --- Remitente y Destinatarios ---
     $mail->setFrom('no-responder@seguridadprivadaenmerida.com', 'Nueva entrada en formulario web');
-    $mail->addAddress('seguridadaltonivel@hotmail.com<'); // A quién le llega
+    $mail->addAddress('marcogarcia.gon@gmail.com'); // A quién le llega
     $mail->addReplyTo($email, $fullname);
 
     // --- Contenido ---
